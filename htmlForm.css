@@ -1,0 +1,105 @@
+
+.outerbackground{
+    width: 35vw;
+    height: 100%;
+    margin: auto;
+    background-color: #eeeeee;
+    padding: 15px;
+    display: flex;
+}
+
+.formWrapper{
+    position: relative;
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #dddddd;
+    background-color: #dddddd;  
+}
+
+.formbase{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.fields{
+    position: relative;
+    width: 100%;
+    height: 37px;
+    margin: 20px 0;
+}
+
+.row{
+    width: 100%;
+    height: 100%;
+}
+.column {
+    float: left;
+    height: 100%;
+  }
+  
+  .left {
+    width: 35%;
+  }
+  
+  .right {
+    width: 65%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+
+
+.leftstyles{
+    text-align: right;
+    margin: 5px;
+    padding: 3px;
+}
+  
+
+.input-container {
+    display: flex;
+    margin-bottom: 15px;
+    padding-left: 25px ;
+    border-radius: 5px;
+
+  }
+  
+  .icon {
+    padding: 10px;
+    background: #dddddd;
+    color: black;
+    min-width: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: .5px solid #bbbbbb;
+    border-right: .5px solid transparent !important;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background-color: #eeeeee;
+  }
+  
+  .input-field:focus {
+    border: 2px solid dodgerblue;
+  }
+
+  .submit{
+      position: relative;
+      width: 15%;
+      left: 45%;
+      margin-top: 40px;
+  }
+
+label{
+    font-weight: bolder;
+}

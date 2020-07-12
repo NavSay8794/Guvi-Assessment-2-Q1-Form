@@ -1,0 +1,176 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Task</title>
+    <link rel="stylesheet" type="text/css" href="htmlForm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+        function thankyou() {
+            alert('Thankyou. Your Form has been submitted')
+        }
+    </script>
+</head>
+
+<body>
+    <div class="outerbackground">
+        <div class="formWrapper">
+            <form action="#" method="GET" class="formbase" onsubmit="thankyou()">
+                <div class="fields">
+                    <div class="row">
+                        <div class="column left">
+                            <div class="leftstyles">
+                                <label for="fullname">Full Name</label>
+                            </div>
+                        </div>
+                        <div class="column right ">
+                            <div class="input-container">
+                                <i class="fa fa-user icon"></i>
+                                <input class="input-field" type="text" placeholder="Full Name" name="fullname"
+                                    id="fullname" required>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="fields">
+                    <div class="row">
+                        <div class="column left">
+                            <div class="leftstyles">
+                                <label for="line1">Address Line 1</label>
+                            </div>
+                        </div>
+                        <div class="column right ">
+                            <div class="input-container">
+                                <i class="fa fa-home icon"></i>
+                                <input class="input-field" type="text" placeholder="Address Line 1" name="addressL1"
+                                    id="line1" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fields">
+                    <div class="row">
+                        <div class="column left">
+                            <div class="leftstyles">
+                                <label for="line2">Address Line 2</label>
+                            </div>
+                        </div>
+                        <div class="column right">
+                            <div class="input-container">
+                                <i class="fa fa-home icon"></i>
+                                <input class="input-field" type="text" placeholder="Address Line 2" name="addressL2"
+                                    id="line2" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fields">
+                    <div class="row">
+                        <div class="column left">
+                            <div class="leftstyles">
+                                <label for="city">City</label>
+                            </div>
+                        </div>
+                        <div class="column right ">
+                            <div class="input-container">
+                                <i class="fa fa-home icon"></i>
+                                <input class="input-field" type="text" placeholder="City" name="city" id="city"
+                                    required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fields">
+                    <div class="row">
+                        <div class="column left">
+                            <div class="leftstyles">
+                                <label for="state">State/Province/Region</label>
+                            </div>
+                        </div>
+                        <div class="column right ">
+                            <div class="input-container">
+                                <i class="fa fa-home icon"></i>
+                                <input class="input-field" type="text" placeholder="State/Province/Region" name="state"
+                                    id="state" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fields">
+                    <div class="row">
+                        <div class="column left">
+                            <div class="leftstyles">
+                                <label for="zip">Postal Code/ZIP</label>
+                            </div>
+                        </div>
+                        <div class="column right ">
+                            <div class="input-container">
+                                <i class="fa fa-home icon"></i>
+                                <input class="input-field" type="text" placeholder="Postal Code/ZIP" name="zipcode"
+                                    id="zip" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fields">
+                    <div class="row">
+                        <div class="column left">
+                            <div class="leftstyles">
+                                <label for="full name">Country</label>
+                            </div>
+                        </div>
+                        <div class="column right ">
+                            <div class="input-container">
+                                <i class="fa fa-user icon"></i>
+                                <input class="input-field" type="text" placeholder="Username" name="usrnm" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fields">
+                    <div class="row">
+                        <div class="column left">
+                            <div class="leftstyles">
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+                        <div class="column right ">
+                            <div class="input-container">
+                                <i class="fa fa-envelope icon"></i>
+                                <input class="input-field" type="text" placeholder="Email" name="email" id="email"
+                                    required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fields">
+                    <div class="row">
+                        <div class="column left">
+                            <div class="leftstyles">
+                                <label for="phone">Phone Number</label>
+                            </div>
+                        </div>
+                        <div class="column right">
+                            <div class="input-container">
+                                <i class="fa fa-phone icon"></i>
+                                <input class="input-field" type="text" placeholder="Phone Number" name="number"
+                                    id="phone" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="submit">
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="htmlForm.js"></script>
+</body>
+
+</html>
